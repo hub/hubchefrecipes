@@ -4,3 +4,12 @@
 [submodule "apt"]
 	path = apt
 	url = https://github.com/opscode-cookbooks/apt.git
+[submodule "python"]
+	path = python
+	url = https://github.com/opscode-cookbooks/python.git
+[submodule "runit"]
+	path = runit
+	url = https://github.com/opscode-cookbooks/runit.git
+[submodule "yum"]
+	path = yum
+	url = https://github.com/opscode-cookbooks/yum.git
