@@ -19,3 +19,6 @@
 [submodule "yum-epel"]
 	path = yum-epel
 	url = https://github.com/opscode-cookbooks/yum-epel.git
+[submodule "chef-solo-search"]
+	path = chef-solo-search
+	url = https://github.com/edelight/chef-solo-search.git
