@@ -22,3 +22,6 @@
 [submodule "chef-solo-search"]
 	path = chef-solo-search
 	url = https://github.com/edelight/chef-solo-search.git
+[submodule "opsworks-example-cookbooks"]
+	path = opsworks-example-cookbooks
+	url = git://github.com/amazonwebservices/opsworks-example-cookbooks.git
