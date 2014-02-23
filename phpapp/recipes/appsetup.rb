@@ -5,7 +5,9 @@ node[:deploy].each do |app_name, deploy|
     user "root"
     cwd "#{deploy[:deploy_to]}/current"
     code <<-EOH
-    [ -f update.sh ] && ./update.sh
+    if [ -f update.sh ]; then 
+      bash update.sh
+    fi
     EOH
   end
 
