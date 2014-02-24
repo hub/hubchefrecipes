@@ -11,6 +11,11 @@ node[:deploy].each do |app_name, deploy|
     EOH
   end
 
+  package "php5-imagick" do
+      action :install
+  end
+
+
   template "#{deploy[:deploy_to]}/current/db-connect.php" do
     source "db-connect.php.erb"
     mode 0660
